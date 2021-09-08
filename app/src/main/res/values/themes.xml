@@ -18,7 +18,7 @@
     <style name="Theme_Tasks" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/azul_claro1</item>
-
+        <item name="android:colorPrimaryDark">@color/azul_escuro1</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="android:windowBackground">@color/laranja</item>
         <item name="android:navigationBarColor">@color/azul_escuro1</item>

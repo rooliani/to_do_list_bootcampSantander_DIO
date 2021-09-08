@@ -4,6 +4,7 @@ import android.app.Activity
 import android.os.Bundle
 
 import androidx.appcompat.app.AppCompatActivity
+import bootcampsantander.rooliani.todolist_desafiofinal_v2.R
 import bootcampsantander.rooliani.todolist_desafiofinal_v2.model.Task
 import bootcampsantander.rooliani.todolist_desafiofinal_v2.datasource.TaskDataSource
 import bootcampsantander.rooliani.todolist_desafiofinal_v2.databinding.ActivityAddTaskBinding
@@ -29,12 +30,11 @@ class AddTaskActivity:AppCompatActivity (){
                 binding.tilTitle.text= it.title
                 binding.tilDate.text=it.date
                 binding.tilHour.text=it.hour
+                binding.btnNewTask.text = getString(R.string.label_edit_task)
             }
         }
 
         insertListeners()
-
-
     }
 
     private fun insertListeners() {
