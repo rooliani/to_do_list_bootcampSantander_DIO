@@ -13,7 +13,7 @@
         android:textSize="24sp"
         android:gravity="center"
         android:text="@string/label_you_dont_have_tasks"
-        android:textColor="@color/black"
+        android:textColor="@color/azul_claro3"
         android:layout_marginBottom="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/iv_image"

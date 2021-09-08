@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:title="@string/label_new_task"
-        app:navigationIcon="@drawable/ic_navigate"
+        app:titleTextColor="@color/azul_claro3"
+        app:navigationIcon="@drawable/ic_navegate_white"
         app:layout_constraintTop_toTopOf="parent"/>
     
     <androidx.constraintlayout.widget.Guideline
@@ -86,6 +87,7 @@
         android:layout_height="wrap_content"
         android:text="@string/label_new_task"
         android:textAllCaps="false"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@id/guide_start"
         app:layout_constraintEnd_toEndOf="@id/guide_end"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -97,8 +99,6 @@
         android:layout_height="wrap_content"
         android:text="@string/label_cancel"
         android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:background="@color/black"
         app:layout_constraintStart_toStartOf="@id/guide_start"
         app:layout_constraintEnd_toEndOf="@id/guide_end"
         app:layout_constraintBottom_toTopOf="@id/btn_new_task"
