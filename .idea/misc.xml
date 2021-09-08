@@ -9,7 +9,7 @@
         <entry key="app/src/main/res/drawable/ic_empty_state.xml" value="0.36574074074074076" />
         <entry key="app/src/main/res/drawable/ic_navegate_white.xml" value="0.40185185185185185" />
         <entry key="app/src/main/res/layout/activity_add_task.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/empty_state.xml" value="0.25354609929078015" />
         <entry key="app/src/main/res/layout/item_task.xml" value="0.2069402228976697" />
         <entry key="app/src/main/res/menu/popup_menu.xml" value="0.418974358974359" />

@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.Todolist_desafiofinal_v2" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <!-- Sem compromissos -->
+    <style name="Theme_No_tasks" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/azul_claro3</item>
-        <item name="colorPrimaryVariant">@color/azul_claro2</item>
+
         <item name="colorOnPrimary">@color/azul_claro2</item>
         <item name="android:windowBackground">@color/azul_escuro1</item>
         <item name="android:navigationBarColor">@android:color/holo_orange_dark</item>
@@ -11,6 +11,20 @@
         <item name="colorSecondary">@color/azul_claro1</item>
         <item name="colorSecondaryVariant">@color/black</item>
         <item name="colorOnSecondary">@color/white</item>
+    </style>
 
+
+    <!-- Com compromissos -->
+    <style name="Theme_Tasks" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/azul_claro1</item>
+
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/laranja</item>
+        <item name="android:navigationBarColor">@color/azul_escuro1</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/azul_escuro1</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
     </style>
 </resources>

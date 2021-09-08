@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    //Azul
     <color name="azul_escuro1">#114259</color>
     <color name="azul_escuro2">#1D7299</color>
     <color name="azul_claro1">#248EBF</color>
     <color name="azul_claro2">#29A1D9</color>
     <color name="azul_claro3">#2CAAE6</color>
+
+    //diversas
+
+    <color name="laranja">#ffa500</color>
+    <color name="rosa1">#F9589C</color>
+    <color name="rosa2">#F73989</color>
+    <color name="rosa3">#C70B9A</color>
+    <color name="azul">#0A0CB0</color>
+
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
 </resources>
